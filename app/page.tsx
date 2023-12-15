@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() { 
   return (
     <div className="w-full bg-[var(--Light-gray)] min-h-screen flex justify-center items-center">
-      <div className=" max-w-[380px] bg-[var(--White)] max-h-[600px] flex flex-col justify-center items-start rounded-2xl p-4">
+      <div className=" max-w-[380px] bg-[var(--White)] max-h-[630px] flex flex-col justify-center items-start rounded-2xl p-4">
         <div className="w-full border-8 border-[#3785ff] rounded-xl">
           <Image 
             src="/image-qr-code.png"
